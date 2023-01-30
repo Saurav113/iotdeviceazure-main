@@ -13,8 +13,7 @@ apiVersion : apps/v1
 	        app: sauravcluster 
 	    spec:
 	      containers:
-	        - name: sauravcluster
-	          image: sauravcontainerregistry1 .azurecr.io/sauravcluster
+	        - name: sauravcluster 
+	          image: sauravclusteracr.azurecr.io/sauravcluster
 	          ports:
 	          - containerPort: 80
-
