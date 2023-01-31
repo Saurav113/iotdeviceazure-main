@@ -15,10 +15,10 @@ namespace IotHubDevice.repository
 {
     public class TelementaryMessage
     {
-        private static string connectionString = "HostName=joshiIotDevice.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=4jnu7vdM7hr5J2wproAe8fTESWbOIK/H4Z0feFNYetM=";
+        private static string connectionString = "HostName=sauraviothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=i7f2+RTduSS8shWhrbG87ipeZlxpwKPbJYQfShDqJf4=";
         public static RegistryManager? registryManager;
         public static DeviceClient? client = null;
-        public static string myDeviceConnection = "HostName=joshiIotDevice.azure-devices.net;DeviceId=iotdevice1;SharedAccessKey=7cbM5rmIueUN37CLMAlo+sYVcbFu1mfqwMtI3Vuscsc=";
+        public static string myDeviceConnection = "HostName=sauraviothub.azure-devices.net;DeviceId=saurav1;SharedAccessKey=vIDV6iJ8UXIhKJ5I/hnZZT6NBP1o8OhbYCC9mp6Bfok=";
         
         public static async Task SendMessage(string deviceName)
         {
